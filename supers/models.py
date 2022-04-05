@@ -3,7 +3,7 @@ from super_types.models import Type
 
 
 
-# Create your models here.
+# keep and eye on color shading, review python interpretor is correct and set before making changes
 
 class Super(models.Model):
     name = models.CharField(max_length=20)
