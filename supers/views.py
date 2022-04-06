@@ -17,7 +17,7 @@ def supers_list(request):
 
         if type_param:
             supers = supers.filter(super_type__type = type_param)
-            serializer = SuperSerializer(supers,many = True)
+            serializer = SuperSerializer(supers, many = True)
             return Response(serializer.data)
         else:
             super_types = Type.objects.all()
