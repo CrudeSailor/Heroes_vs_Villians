@@ -119,4 +119,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 try:
     from heroes_vs_villians_project.local_settings import *
 except ImportError:
-    pass    
+    pass
